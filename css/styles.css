@@ -321,16 +321,17 @@ nav ul li a:hover::after {
 
 .service-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    margin-top: 3rem;
 }
 
 .service-card {
     background-color: var(--light-text);
-    border-radius: 10px;
     padding: 2rem;
-    text-align: center;
+    border-radius: 10px;
     box-shadow: var(--box-shadow);
+    text-align: center;
     transition: var(--transition);
 }
 
